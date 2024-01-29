@@ -1,5 +1,10 @@
-.container{
+
+body{
+    width: 100%;
     display: block;
+    align-items: center;
+}
+.container{
     text-align: center;
 }
 div{
@@ -14,6 +19,42 @@ input{
 .name{
     width: 218px;
 }
+#verify{
+    padding: 0;
+}
 label{
-    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+p a{
+    text-decoration: none;
+    color: blue;
+}
+button{
+    padding: 15px 35px;
+    color: white;
+    background-color: rgb(0, 146, 244);
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    background-color: skyblue;
+}
+footer{
+    background-color: rgb(233, 233, 233);
+    padding: 40px;
+}
+footer p{
+    color: gray;
+}
+footer p a{
+    color: blue;
+}
+footer a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
 }

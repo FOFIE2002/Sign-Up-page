@@ -1,32 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Create Apple ID</title>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/97d93363c8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div class="container">
-        <form>
-            <h1>Creste Your Apple ID</h1>
-            <p>One Apple ID is all you need to access all Apple services</p>
-            <label for="name" ></label>
-            <input type="text"  placeholder="First Name" name="fname" class="name" required>
-            <input type="text"  placeholder="Last Name" name="lname" class="name" required>
-            <div>
-                <label for="country">COUNTRY / REGION</label><br>
-                <input type="dropdown" placeholder="Country" required> <br>
-                <input type="datetime-local" name="" id="birthday" placeholder="Birthday" required>
-            </div>
-            <hr>
-            <div>
-                <input type="email" name="" id="email" placeholder="name@example.com" required>
-                <input type="password" name="password" id="password" placeholder="Password" required >
-                <input type="password" name="password" id="password" placeholder="Confirm Password" required >
-            </div>
-            <hr>
-        </form>
+      <form>
+        <h1>Create Your Apple ID</h1>
+        <p>One Apple ID is all you need to access all Apple services</p>
+        <label for="name"></label>
+        <input
+          type="text"
+          placeholder="First Name"
+          name="fname"
+          class="name"
+          required
+        />
+        <input
+          type="text"
+          placeholder="Last Name"
+          name="lname"
+          class="name"
+          required
+        />
+        <div>
+          <label for="country">COUNTRY / REGION</label><br />
+          <input type="dropdown" placeholder="Country" required /><br />
+          <input
+            type="datetime-local"
+            name=""
+            id="birthday"
+            placeholder="Birthday"
+            required
+          />
+        </div>
+        <hr />
+        <div>
+          <input
+            type="email"
+            name=""
+            id="email"
+            placeholder="name@example.com"
+            required
+          /><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          /><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Confirm Password"
+            required
+          />
+        </div>
+        <hr />
+        <div>
+          <input
+            type="month"
+            name="country code"
+            id="country_code"
+            placeholder="country code"
+          /><br />
+          <input
+            type="number"
+            name="Phone number"
+            id="phone"
+            placeholder="Phone Number"
+          /><br />
+          <div class="content">
+            Be sure to enter a phone number you can always access. It will be
+            used to verify your identity any time you sign in on a new device or
+            web browser. Messaging or data rates may apply.
+          </div>
+          <label for="Verify">Verify with:</label>
+          <label for="verify"
+            ><input type="radio" name="Verify" id="verify" />Text message</label
+          ><br />
+          <label for="verify"
+            ><input type="radio" name="Verify" id="verify" />Phone call</label
+          >
+        </div>
+        <hr />
+        <div>
+          <label for="announcement"
+            ><input type="checkbox" name="announcement" id="" /> Receive Apple
+            emails and communications including announcemnets, marketing,
+            recommendations, and updates about Apple products, services and
+            software.</label
+          ><br />
+
+          <label for="announcement"
+            ><input type="checkbox" name="announcement" id="" />Apps, Music,TV,
+            and MoreReceive Apple emails and communications including new
+            releases, exclusive content, special offers, and marketing and
+            recommendations for apps, music, movies, TV, books, podcasts, Apple
+            Pay, Apple Card and more.</label
+          >
+        </div>
+        <hr />
+        <div>
+          <i class="fa-solid fa-people-pants" style="color: #74c0fc"></i>
+          <p>
+            Your Apple ID information is used to allow you to sign in securely
+            and access your data. Apple records certain data for security,
+            support and reporting purposes. If you agree, Apple may also use
+            your Apple ID information to send you marketing emails and
+            communications, including based on your use of Apple services.
+            <a href="https://support.apple.com/HT208650" target="_blank"
+              >See how your data is managed</a
+            >
+          </p>
+        </div>
+        <button type="submit">Continue</button>
+      </form>
     </div>
-</body>
+    <footer>
+      <p>
+        More ways to shop:
+        <a href="https://www.apple.com/retail/" target="_blank"
+          >Find an Apple Store</a
+        >
+        or
+        <a href="https://locate.apple.com/" target="_blank">other retailer</a>
+        near you. Or call 1-800-MY-APPLE. <br />
+        United States <br />Copyright © 2024 Apple Inc. All rights reserved.
+      </p>
+      <a href="https://www.apple.com/legal/privacy/" target="_blank"
+        >Privacy Policy |</a
+      >
+      <a
+        href="https://www.apple.com/legal/internet-services/terms/site.html"
+        target="_blank"
+        >Terms of Use |</a
+      >
+      <a
+        href="https://www.apple.com/us/shop/goto/help/sales_refunds"
+        target="_blank"
+        >Sales and Refunds |</a
+      >
+      <a href="https://www.apple.com/legal/" target="_blank">Legal |</a>
+      <a href="https://www.apple.com/sitemap/" target="_blank">Site Map |</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>
