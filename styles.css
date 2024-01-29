@@ -1,0 +1,19 @@
+.container{
+    display: block;
+    text-align: center;
+}
+div{
+    margin: 30px;
+}
+input{
+    width: 500px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.name{
+    width: 218px;
+}
+label{
+    text-align: left;
+}
