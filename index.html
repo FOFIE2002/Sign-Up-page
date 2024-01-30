@@ -32,8 +32,13 @@
         />
         <div>
           <label for="country">COUNTRY / REGION</label><br />
-          <input type="dropdown" placeholder="Country" required /><br />
-          <input
+          <select name="country" id="country" required>
+            <option value="">Select your country</option>
+            <option value="Afghanistan">Afghanistan</option>
+            <option value="Albania">Albania</option>
+             <option value="Zimbabwe">Zimbabwe</option>
+             </select>
+             <input
             type="datetime-local"
             name=""
             id="birthday"
@@ -67,12 +72,12 @@
         </div>
         <hr />
         <div>
-          <input
-            type="month"
-            name="country code"
-            id="country_code"
-            placeholder="country code"
-          /><br />
+            <select name="country_code" id="countryCode" required>
+                <option value="">Select your country code</option>
+                <option value="93">+93</option>
+                <option value="355">+355</option>
+                 <option value="263">+263</option>
+                 </select><br />
           <input
             type="number"
             name="Phone number"
