@@ -1,7 +1,7 @@
-$('#country').change(function () {
-//     var countryCode = $(this).val();
+// $('#country').change(function () {
+// //     var countryCode = $(this).val();
 
-//     if (countryCode) {
-//         $('#phone').val(countryCode);
-//     }
-// });
+// //     if (countryCode) {
+// //         $('#phone').val(countryCode);
+// //     }
+// // });

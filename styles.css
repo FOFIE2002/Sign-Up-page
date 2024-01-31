@@ -10,11 +10,15 @@ body{
 div{
     margin: 30px;
 }
-input, select{
+.input, select{
     width: 500px;
     padding: 20px;
     margin: 10px;
     border-radius: 5px;
+}
+select{
+    width: 550px;
+    padding: 23px ;
 }
 .name{
     width: 218px;
@@ -23,8 +27,10 @@ input, select{
     padding: 0;
 }
 label{
-    display: flex;
-    justify-content: center;
+    display: block;
+    max-width: 500px;
+    align-items: center;
+    margin-left: 430px;
 }
 p a{
     text-decoration: none;
